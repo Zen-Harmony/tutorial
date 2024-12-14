@@ -630,7 +630,7 @@ wordcount: true
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Use the original version of busuanzi / 1: Use the custom version of busuanzi
 # The difference between the original and the default: please search by yourself
 # 0：使用原版的不蒜子 / 1：使用不蒜子的自定义版本
