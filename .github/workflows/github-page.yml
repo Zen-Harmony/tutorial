@@ -1,36 +1,50 @@
-name: Deploy Hexo Blog
+name: Pages
 
 on:
-  workflow_dispatch:
+  push:
     branches:
-      - main # 替换为你的主分支名称
+      - main # default branch
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    # 1. 检出代码
-    - name: Checkout Code
-      uses: actions/checkout@v3
-
-    # 2. 设置 Node.js 环境
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18 # 根据你的项目需求调整 Node.js 版本
-
-    # 3. 安装依赖
-    - name: Install Dependencies
-      run: npm install
-
-    # 4. 执行 npm run u
-    - name: Build Site
-      run: npm run u
-
-    # 5. 部署到 GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GH_TOKEN }}
-        publish_dir: ./public
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
+          # Ref: https://github.com/actions/setup-node#supported-version-syntax
+          node-version: "20"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
