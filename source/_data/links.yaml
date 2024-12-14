@@ -1,0 +1,47 @@
+banner_suffix: 
+links:
+    - class_name: 成员 # 分类名称
+      descr:  # 分类简介
+      type: item  # 显示方式，有两种 card / item
+      suffix:
+      link_list:
+       - name: 青稚
+         link: https://blog.linux-qitong.top
+         avatar: https://blog.linux-qitong.top/img/avatar.avif
+         descr: 越努力，越幸运. 
+       - name: Aninana
+         link: https://tutorial.zen-harmony.top
+         avatar: https://avatars.githubusercontent.com/u/130546027?v=4
+         descr: 阿尼樱奈奈~
+       - name: hanzn
+         link: https://hanzn-blog.pages.dev
+         avatar: /img/link/hanzn.avif
+         descr: hanzn-zzx~
+       - name: Hyd_Offcial
+         link: https://lunars.site
+         avatar: https://gcore.jsdelivr.net/gh/lunarblog/CDN@Avatar-241002/avatar/241002.JPG
+         descr: Ciallo~ (∠・ω< )⌒☆
+       - name: Ariasaka
+         link: https://blog.yaria.top
+         avatar: https://bu.dusays.com/2024/10/28/671f8bf00317e.jpg
+         descr: 人有悲欢离合,月有阴晴圆缺~ 
+       - name: 花花
+         link: https://isfafa.top
+         avatar: /img/link/hyls.avif
+         descr: 花雨落逝~
+       - name: Redish101
+         link: https://blog.redish101.top/
+         avatar: /img/link/redish101.avif
+         descr: 人文,科技,白日梦~ 
+       - name: elaina
+         link: https://ashenwitch.top
+         avatar: /img/link/elaina.avif
+         descr: ashenwitch~
+       - name: Walter_Fang
+         link: https://blog.walterfang.us.kg
+         avatar: /img/link/fang.avif
+         descr: Software Developer~
+       - name: 璜珀
+         link: https://blog.hpcesia.com/
+         avatar: https://blog.hpcesia.com/img/myavatar.webp
+         descr: 一个想要摆烂却又不甘于躺平的人.

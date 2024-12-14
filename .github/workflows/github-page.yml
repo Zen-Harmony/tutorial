@@ -1,0 +1,36 @@
+name: Deploy Hexo Blog
+
+on:
+  workflow_dispatch:
+    branches:
+      - main # 替换为你的主分支名称
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. 检出代码
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # 2. 设置 Node.js 环境
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18 # 根据你的项目需求调整 Node.js 版本
+
+    # 3. 安装依赖
+    - name: Install Dependencies
+      run: npm install
+
+    # 4. 执行 npm run u
+    - name: Build Site
+      run: npm run u
+
+    # 5. 部署到 GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
+        publish_dir: ./public
