@@ -1,19 +1,3 @@
-# ---------------------------
-# Hexo Theme Solitude
-# Author: Ever Fu
-# Github: https://github.com/everfu/hexo-theme-solitude
-#
-# Guide: https://solitude.js.org
-# You can get more detailed help from the guide
-# 指南：https://solitude.js.org
-# 你可以从指南中获取更详细的帮助
-#
-# sponsor: https://ko-fi.com/everfu
-# 赞助：https://afdian.com/a/everfu
-# ---------------------------
-
-### Basic configuration
-
 # --------------------------- start ---------------------------
 # Site information
 # 网站信息
@@ -67,7 +51,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 分享技术<br >与科技生活
+    title: 分享科技<br >与生活
     url: www.zen-harmony.top
     icon:
       Nodejs:
