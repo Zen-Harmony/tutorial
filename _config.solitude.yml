@@ -25,7 +25,7 @@ nav:
       标签列表: /tags/ || fas fa-tags
     友链:
       文章矩阵: https://summary.zhheo.com/static/matrix-posts.html || fas fa-wifi
-      友情链接: /links/ || fas fa-user-group
+      友人帐: /links/ || fas fa-user-group
       # 宝藏博主: javascript:travelling() || fas fa-gift
     我的:
       # 音乐: /music/ || fas fa-music
@@ -149,10 +149,10 @@ aside:
     # 社交信息图标
     information:
       Zen-Harmony: https://github.com/Zen-Harmony || fas fa-users # Name: link || icon
-      Mail: mailto:zen-harmony@outlook.com || fab fa-envelope
-      Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
-      AninanaMail: mailto:kamizotoayaka@163.com || fas fa-person-dress
-      Aninana: https://space.bilibili.com/454691946 || fab fa-youtube
+      Mail: mailto:zen-harmony@outlook.com || fas fa-envelope
+      Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-youtube
+      AninanaMail: mailto:kamizotoayaka@163.com || fas fa-envelope-square
+      Aninana: https://space.bilibili.com/454691946 || fab fa-bilibili
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
