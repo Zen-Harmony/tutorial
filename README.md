@@ -1,2 +1,2 @@
-# solitude-demo
-theme-solitude-demo
+# Linux教程站&Aninana blog
+
