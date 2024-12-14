@@ -106,3 +106,7 @@ rewardList: # 底部捐赠
     money: 14
     time: 2024-11-24
     icon: fab fa-weixin
+  - name: 青稚
+    money: 6
+    time: 2024-12-14
+    icon: fab fa-weixin
