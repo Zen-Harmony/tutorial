@@ -540,7 +540,7 @@ lazyload:
   # post, site
   field: site
   # 加载时替换图
-  placeholder: ''
+  placeholder: /img/loading.avif
   # 加载失败替换图
   errorimg: /img/error_load.avif
 # --------------------------- end ---------------------------
@@ -552,6 +552,9 @@ loading:
   # Full screen loading
   # 全屏加载
   fullpage: false
+  # Loading icon, default is siteicon
+  # 加载图标，不写默认siteicon
+  favicon: https://avatars.githubusercontent.com/u/130546027?v=4
   # Pace loading
   # Pace 加载
   pace: true
