@@ -75,7 +75,7 @@ date: 2024-12-16 09:38:53
 · Windows系统虚拟机直接双击识别成CD驱动器的VirtualBox Guest Additions，按照提示安装；
 > 如果双击VirtualBox Guest Additions的CD驱动器没有弹出安装界面窗口，而是直接进入该驱动器内部，则执行里面的“VBoxWindowsAdditions-amd64.exe”（64位Windows安装）或“VBoxWindowsAdditions-x86.exe”（32位Windows安装）
 
-· Linux系统虚拟机在VBox_GAs_x.x.x（这里的x.x.x是版本号，与VirtualBox的版本号是一致的，如VBox_GAs_7.1.14）光驱目录右键打开终端，执行：`sudo ./VBoxLinuxAdditions.run`，输入用户密码，等待安装过程完成即可。
+· Linux系统虚拟机在VBox_GAs_x.x.x（这里的x.x.x是版本号，与VirtualBox的版本号是一致的，如VBox_GAs_7.1.4）光驱目录右键打开终端，执行：`sudo ./VBoxLinuxAdditions.run`，输入用户密码，等待安装过程完成即可。
 
 ## 卸载 VirtualBox
 
