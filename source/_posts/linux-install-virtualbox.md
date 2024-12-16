@@ -53,7 +53,7 @@ date: 2024-12-16 09:38:53
 
 ![](/img/linux-install-virtualbox/linux-install-virtualbox-8.avif)
 
-此时需要创建usbfs组并将当前用户手动加入到该组。在主机系统打开终端，执行：`sudo groupadd usbfs && sudo adduser $USER vboxusers && sudo adduser $USER usbfs`
+此时需要创建usbfs组并将当前用户手动加入到vboxusers组和usbfs组。在主机系统打开终端，执行：`sudo groupadd usbfs && sudo adduser $USER vboxusers && sudo adduser $USER usbfs`
 
 ![](/img/linux-install-virtualbox/linux-install-virtualbox-9.avif)
 
