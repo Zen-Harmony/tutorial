@@ -3,8 +3,8 @@ title: Linux通过run法安装和使用VirtualBox
 categories:
   - VM
 tags:
-  - Install
   - Linux
+  - Install
 date: 2024-12-16 09:38:53
 ---
 
