@@ -4,7 +4,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: Aninana # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: Linux觅知园 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: https://avatars.githubusercontent.com/u/130546027?v=4 # Site icon / 网站图标
 # --------------------------- end ---------------------------
 

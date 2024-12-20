@@ -1,18 +1,16 @@
 # Site
-title: 'Aninana的空间'
+title: Linux教程站
 subtitle: 
 description: 
 keywords: '志海融新,Hexo，教程，Linux觅知园'
-author: 'Aninana'
-language: 'zh-CN'
-timezone: ''
+author: Aninana
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://Aninana.github.io
-# permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink/  #文章结尾不带 .html
-# permalink: posts/:abbrlink.html
+url: https://tutorial.zen-harmony.top
+permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
