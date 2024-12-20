@@ -143,11 +143,9 @@ aside:
     # social
     # 社交信息图标
     information:
-      Zen-Harmony: https://github.com/Zen-Harmony || fas fa-users # Name: link || icon
-      Mail: mailto:zen-harmony@outlook.com || fas fa-envelope
-      Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-youtube
-      AninanaMail: mailto:kamizotoayaka@163.com || fas fa-envelope-square
-      Aninana: https://space.bilibili.com/454691946 || fab fa-bilibili
+      Github: https://github.com/Zen-Harmony || fab fa-github # Name: link || icon
+      Mail: mailto:zen-harmony@outlook.com || far fa-envelope
+      Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
   # --------------------------- end ---------------------------
   # --------------------------- start ---------------------------
   # Sidebar QR code component
@@ -268,7 +266,7 @@ post:
       license: CC BY-NC-SA 4.0
       # License link
       # 许可证链接
-      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+      licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
   # Article meta information
   # 文章元信息
   meta:
@@ -380,10 +378,10 @@ footer:
   information:
     author: false # img url / false
     left:
-      # Github: https://github.com/Zen-harmony || fab fa-github # Name: link || icon
-      # Mail: mailto:kamizotoayaka@163.com || fab fa-envelope
+      Github: https://github.com/Zen-Harmony || fab fa-github # Name: link || icon
+      Mail: mailto:zen-harmony@outlook.com || far fa-envelope
     right:
-      # Bilibili: https://space.bilibili.com/454691946 || fab fa-bilibili
+      Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
   group:
     # 软件:
     #   阳光沙滩: /
@@ -392,7 +390,7 @@ footer:
   # 随机友链
   randomlink: false # Random link
   # License
-  license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License
+  license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans # License
   # 备案
   beian: 
   # Footer information text
