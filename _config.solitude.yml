@@ -7,7 +7,6 @@ site:
     custom: Linux觅知园 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: https://avatars.githubusercontent.com/u/130546027?v=4 # Site icon / 网站图标
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Navigation bar
 # 导航栏
@@ -31,8 +30,6 @@ nav:
       # 音乐: /music/ || fas fa-music
       # 在线工具: /tlink/ || fas fa-toolbox
       关于本站: /about/ || fas fa-user
-
-
   # Right button
   # 右侧按钮
   right:
@@ -44,7 +41,6 @@ nav:
       #   onclick: # Click event
       #   id: travellings_button # id
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Home Top Banner
 # 首页顶部
@@ -96,7 +92,6 @@ hometop:
 # 文章推荐轮播图
 carousel: false
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Aside
 # 侧边栏
@@ -117,7 +112,7 @@ aside:
     Sticky: "newestPost,allInfo"
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
-
+  # --------------------------- end ---------------------------
   # --------------------------- start ---------------------------
   # Information card
   # 信息卡
@@ -154,7 +149,6 @@ aside:
       AninanaMail: mailto:kamizotoayaka@163.com || fas fa-envelope-square
       Aninana: https://space.bilibili.com/454691946 || fab fa-bilibili
   # --------------------------- end ---------------------------
-
   # --------------------------- start ---------------------------
   # Sidebar QR code component
   # 侧边栏二维码组件
@@ -164,7 +158,6 @@ aside:
     backface: # url (QR code)
     backcolor: "var(--efu-blue)" # Background color
   # --------------------------- end ---------------------------
-
   # --------------------------- start ---------------------------
   # article table of contents
   # 文章目录
@@ -173,7 +166,6 @@ aside:
     page: false
     vague: true
   # --------------------------- end ---------------------------
-
   # --------------------------- start ---------------------------
   # Tags
   # 标签
@@ -184,7 +176,6 @@ aside:
     highlight_list:
       # - hexo
   # --------------------------- end ---------------------------
-
   # --------------------------- start ---------------------------
   # Archive
   # 归档
@@ -192,7 +183,6 @@ aside:
     enable: true
     type: "month" # month: by month / year: by year
   # --------------------------- end ---------------------------
-
   # --------------------------- start ---------------------------
   # Site Info
   # 网站信息
@@ -216,9 +206,7 @@ aside:
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
     runtime: "2024-11-24 00:00:00"
-  # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Home page article configuration information
 # 首页文章配置信息
@@ -227,7 +215,6 @@ index_post_list:
   column: 2 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Page default settings
 # 页面默认设置
@@ -252,7 +239,6 @@ page:
     cover:
       # - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Post default settings
 # 文章默认设置
@@ -359,14 +345,12 @@ post:
       name: # Learn more / 了解更多
       url: /about/
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
   dark: "#ffc848" # dark
   light: "#425AEF" # light
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # display mode
 # 显示模式
@@ -378,7 +362,6 @@ display_mode:
   # 开启后深色模式会显示星空背景
   universe: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Related articles
 # 相关文章
@@ -389,7 +372,6 @@ related_post:
   # created: 发布日期 / updated: 更新日期
   date_type: created
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Footer
 # 页脚
@@ -406,17 +388,13 @@ footer:
     # 软件:
     #   阳光沙滩: /
     #   Solitude: https://solitude.js.org
-
-    
-
   # Random link
   # 随机友链
   randomlink: false # Random link
   # License
   license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License
-
+  # 备案
   beian: 
-
   # Footer information text
   # 页脚信息文字
   # Please do not delete the theme information, this is respect for the author
@@ -427,7 +405,6 @@ footer:
     # - name: RSS
     #   url: /atom.xml
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # 404 page
 # 404 页面
@@ -436,7 +413,6 @@ errorpage:
   text: Page NotFound # Text
   recommendList: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Says Page
 # 即可短文
@@ -447,7 +423,6 @@ says:
   style: 1
   strip: 30
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Recent comments Page
 # 最近评论页面
@@ -457,7 +432,6 @@ recent_comments:
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Danmaku Page
 # 弹幕留言页面
@@ -469,7 +443,6 @@ envelope:
   loop: true # 循环播放
   page: /message/ # 留言板页面 / message board page
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # This part of the content uses metingjs,
 # can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
@@ -500,7 +473,6 @@ capsule:
   type: playlist
   capsule: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Quick Menu
 # Open with shift + ?
@@ -516,7 +488,6 @@ keyboard:
       key: L
       url: /links/
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Copy
 #  information
@@ -531,7 +502,6 @@ copy:
     # 复制文字时超过多少字数显示
     limit: 50
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Lazyload
 # 图片懒加载
@@ -544,7 +514,6 @@ lazyload:
   # 加载失败替换图
   errorimg: /img/error_load.avif
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Loading
 # 加载
@@ -559,7 +528,6 @@ loading:
   # Pace 加载
   pace: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Highlight
 # 代码块高亮
@@ -580,7 +548,6 @@ highlight:
   # default / solidity / dracula
   color: default
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Lightbox
 # 图片灯箱
@@ -590,22 +557,18 @@ lightbox: true
 fancybox: true # fancybox
 mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Mermaid
 mermaid: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Chart.js
 chart: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # typeit
 typeit: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # OpenGraph
 OpenGraph:
@@ -619,7 +582,6 @@ OpenGraph:
     # fb_admins:
     # fb_app_id:
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Word count
 # 字数统计
@@ -627,7 +589,6 @@ OpenGraph:
 # 警告: 请先安装 hexo-wordcount 插件。
 wordcount: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Busuanzi
 busuanzi: true
@@ -637,7 +598,6 @@ busuanzi: true
 # 原版和默认的区别：请自行搜索
 busuanzi_use: 0
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Search
 # warning: Please open the search page config: https://solitude.js.org/search/algolia or https://solitude.js.org/search/local
@@ -656,7 +616,6 @@ search:
     preload: false
     CDN: 
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # This part is only supported in mainland China, and we will consider supporting ChatGPT Key in the future.
 # 该部分仅支持中国大陆，后续会考虑支持 ChatGPT Key。
@@ -674,7 +633,6 @@ post_ai:
   report: https://solitude.js.org
   tips: 此内容根据文章生成，并经过人工审核，仅用于文章内容的解释与总结
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Katex
 # Latex formula support
@@ -688,7 +646,6 @@ katex:
   # 是否启用复制公式
   copytex: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Comment
 # 评论
@@ -723,6 +680,7 @@ comment:
     storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
     limit: 5 # 评论数 / Number of comments
   # --------------------------- end ---------------------------
+  # --------------------------- start ---------------------------
 # Twikoo: https://solitude.js.org/comment/twikoo
 twikoo: # https://twikoo.js.org/
   envId: # url: https://twikoo.sondy.top/
@@ -761,7 +719,6 @@ giscus:
   option:
     data-lang: zh-CN
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Console
 # 控制台
@@ -782,7 +739,6 @@ console:
     # 归档
     archive: false
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # verification
 # 验证
@@ -790,7 +746,6 @@ verify_site:
   # - name: google-site-verification
   #   content: xxxxxx
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # CSS Prefix
 # CSS 前缀
@@ -798,7 +753,6 @@ verify_site:
 # 开启后会自动给 CSS 加前缀（以获得更好的浏览器支持），但这会增加 CSS 文件的大小。
 css_prefix: true
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Font
 # 字体
@@ -812,7 +766,6 @@ font:
   # 代码字体
   code-font-family: '"monospace", monospace'
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Extend
 # 扩展
@@ -827,7 +780,6 @@ extends:
   body:
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # PWA
 # Progressive Web App
@@ -841,7 +793,6 @@ pwa:
   favicon_32_32: /img/pwa/favicon_32.png # 32x32 icon
   favicon_16_16: /img/pwa/favicon_16.png # 16x16 icon
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Google Adsense
 # 谷歌广告
@@ -868,14 +819,12 @@ google_adsense:
   client: # ca-pub-XXXXXXXXXXXXXX
   slot: # 4236388782
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 translate:
   enable: true
   defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
   translateDelay: 0 # 首次加载翻译迟疑时间
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Custom right menu
 # 自定义右键菜单
@@ -906,7 +855,6 @@ right_menu:
       class:
       icon: fas fa-tags
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Memorial
 # Turn the entire site gray on memorable days.
@@ -918,7 +866,6 @@ memorial:
   #  - 9-18 # 九一八事变
   #  - 12-13 # 南京大屠杀国家公祭日
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Lure
 # When the user exits the page, modify the title
@@ -928,7 +875,6 @@ lure:
   jump: 404 Not Found
   back: ヾ(≧∇≦*)ゝHey, hey, you fell for it.
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Article expiration
 # 文章过期
@@ -939,7 +885,6 @@ expire:
   text_prev: "This article expired "
   text_next: " day ago, if the content does not match, please contact the webmaster to update it."
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Background
 # 背景图片
@@ -949,7 +894,6 @@ background:
   dark: https://i.pinimg.com/originals/d8/b3/9d/d8b39d12b653810db452c437211aeb2e.png
   light: https://i.pinimg.com/originals/93/57/38/935738ed9657b296c2ef0ebd2151eb66.jpg
 # --------------------------- end ---------------------------
-
 # --------------------------- start ---------------------------
 # Right-Sidebar
 # 右下角悬停导航栏
@@ -961,8 +905,8 @@ rightside:
     translate: true
     mode: true
     aside: true
+# --------------------------- end ---------------------------
 # --------------------------- start ---------------------------
-
 # Do not modify unless necessary
 # 非必要请勿修改
 CDN:
@@ -972,23 +916,34 @@ CDN:
   custom_format: https://fastly.jsdelivr.net/npm/${name}@${version}/${min_file} # Custom format
   # Directly override the default CDN link (highest priority)
   option:
-    # busuanzi_js: //cn.qjqq.cn/js
-    # fontawesome: 
-    # algolia_search:
-    # instantsearch:
-    # pjax:
-    # twikoo:
-    # waline_js:
-    # waline_css:
-    # katex:
-    # katex_copytex:
-    # lazyload:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # pace_js:
-    # swiper_css:
-    # swiper_js:
-    # busuanzi_js:
-    # snackbar_js:
+    # algolia_search
+    # aplayer_css
+    # aplayer_js
+    # artalk_css
+    # artalk_js
+    # blueimp_md5
+    # busuanzi_js
+    # chart_js
+    # color_thief
+    # fancyapps_css
+    # fancyapps_ui
+    # fontawesome
+    # instantsearch
+    # katex
+    # katex_copytex
+    # lazyload
+    # medium_zoom
+    # mermaid_js
+    # meting_js
+    # pace_js
+    # pjax
+    # qrcode
+    # snackbar
+    # swiper_css
+    # swiper_js
+    # twikoo
+    # typeit_js
+    # valine
+    # waline_css
+    # waline_js
 # --------------------------- end ---------------------------
