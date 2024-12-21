@@ -1,11 +1,12 @@
 ---
 title: 卸载多余内核
 categories:
-  - Kernel
+  - Linux
 tags:
   - Remove
-  - Linux
+  - Kernel
 date: 2024-11-30 08:20:17
+updated: 2024-11-30 08:20:17
 ---
 
 前言:Linux每次更新内核，旧内核不会自动删除，占用空间。
