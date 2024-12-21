@@ -293,7 +293,7 @@ post:
   # 打赏
   award:
     enable: false
-    appreciators: /about/ # Reward page
+    appreciators: /about # Reward page
     # Reward Title
     # 打赏标题
     title: 感谢您的赞赏
@@ -341,7 +341,7 @@ post:
     button: # Button
       enable: true
       name: # Learn more / 了解更多
-      url: /about/
+      url: /about
 # --------------------------- end ---------------------------
 # --------------------------- start ---------------------------
 # Custom Theme Color
