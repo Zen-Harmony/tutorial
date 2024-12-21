@@ -1,14 +1,15 @@
 ---
 title: Linux 和 Windows 时间不同步
 categories:
-  - Time
-tags:
   - Linux
+tags:
+  - Time
   - Windows
 reprint: true
 author: xuqi
 avatar: 'https://avatar.cdn.deepin.com/public/avatar/2022/11/24/15-23-58-e3363b76.png'
 date: 2024-11-30 08:12:43
+updated: 2024-11-30 08:12:43
 ---
 
 ##  一、 Windows的时间和时区
