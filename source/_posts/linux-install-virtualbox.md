@@ -1,11 +1,12 @@
 ---
 title: Linux通过run法安装和使用VirtualBox
 categories:
-  - VM
-tags:
   - Linux
+tags:
+  - VM
   - Install
 date: 2024-12-16 09:38:53
+updated: 2024-12-16 09:38:53
 ---
 
 在Linux安装VirtualBox时，一般根据对应的发行版版本安装对应的deb或rpm包即可；不过有时可能会遇到通过包管理器安装失败的情况，这时候可以考虑使用run法安装。
