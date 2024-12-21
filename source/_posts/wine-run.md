@@ -6,9 +6,6 @@ tags:
   - Wine
   - Windows
   - Install
-reprint: true
-author: Amber
-avatar: 'https://avatar.cdn.deepin.com/public/avatar/2023/03/30/18-21-56-bb1cdeb5.png'
 date: 2024-12-21 22:38:53
 updated: 2024-12-21 22:38:53
 ---
