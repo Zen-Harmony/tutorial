@@ -1,2 +1,2 @@
-# Linux教程站&Aninana Demo
+# Linux教程站
 
