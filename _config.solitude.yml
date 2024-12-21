@@ -47,7 +47,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 奋斗是人生的船只<br >努力是梦想的风帆
+    title: 奋斗是人生的船只，<br >努力是梦想的风帆.
     url: www.zen-harmony.top
     icon:
       Nodejs:
