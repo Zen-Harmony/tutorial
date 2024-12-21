@@ -29,7 +29,7 @@ nav:
     我的:
       # 音乐: /music/ || fas fa-music
       # 在线工具: /tlink/ || fas fa-toolbox
-      关于本站: /about/ || fas fa-user
+      关于本人: /about/ || fas fa-user
   # Right button
   # 右侧按钮
   right:
