@@ -4,8 +4,8 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: Linux觅知园 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: https://avatars.githubusercontent.com/u/130546027?v=4 # Site icon / 网站图标
+    custom: Linux教程站 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+  icon: /img/book-solid.webp # Site icon / 网站图标
 # --------------------------- end ---------------------------
 # --------------------------- start ---------------------------
 # Navigation bar
@@ -47,7 +47,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 生活的理想，<br >就是为了理想的生活.
+    title: 奋斗是人生的船只，<br >努力是梦想的风帆.
     url: www.zen-harmony.top
     icon:
       Nodejs:
@@ -119,7 +119,7 @@ aside:
   card:
     style: 2 # 0: default 1: style 1 2: style 2
     author:
-      img: https://avatars.githubusercontent.com/u/130546027?v=4
+      img: /img/avatar.webp
     url: https://github.com/Zen-Harmony # link / 点击头像跳转链接
     background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
@@ -260,7 +260,7 @@ post:
         url: https://github.com/Zen-Harmony # Author link
         # Default use site.icon
         # 默认使用 site.icon
-        img: https://avatars.githubusercontent.com/u/130546027?v=4
+        img: /img/avatar.webp
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
@@ -407,7 +407,7 @@ footer:
 # 404 page
 # 404 页面
 errorpage:
-  img: /img/404.avif
+  img: /img/404.webp
   text: Page NotFound # Text
   recommendList: true
 # --------------------------- end ---------------------------
@@ -508,9 +508,9 @@ lazyload:
   # post, site
   field: site
   # 加载时替换图
-  placeholder: /img/loading.avif
+  placeholder: /img/loading.gif
   # 加载失败替换图
-  errorimg: /img/error_load.avif
+  errorimg: /img/error_load.webp
 # --------------------------- end ---------------------------
 # --------------------------- start ---------------------------
 # Loading
@@ -521,7 +521,7 @@ loading:
   fullpage: false
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: https://avatars.githubusercontent.com/u/130546027?v=4
+  favicon: /img/avatar.webp
   # Pace loading
   # Pace 加载
   pace: true

@@ -7,15 +7,15 @@ links:
       link_list:
        - name: 青稚
          link: https://blog.linux-qitong.top
-         avatar: https://blog.linux-qitong.top/img/avatar.avif
+         avatar: https://blog.linux-qitong.top/img/avatar.webp
          descr: 越努力，越幸运. 
        - name: Aninana
-         link: https://tutorial.zen-harmony.top
+         link: https://aninana.zen-harmony.top
          avatar: https://avatars.githubusercontent.com/u/130546027?v=4
          descr: 阿尼樱奈奈~
        - name: hanzn
          link: https://hanzn-blog.pages.dev
-         avatar: /img/link/hanzn.avif
+         avatar: /img/link/hanzn.webp
          descr: hanzn-zzx~
        - name: Hyd_Offcial
          link: https://lunars.site
@@ -27,19 +27,19 @@ links:
          descr: 人有悲欢离合,月有阴晴圆缺~ 
        - name: 花花
          link: https://isfafa.top
-         avatar: /img/link/hyls.avif
+         avatar: /img/link/hyls.webp
          descr: 花雨落逝~
        - name: Redish101
          link: https://blog.redish101.top/
-         avatar: /img/link/redish101.avif
+         avatar: /img/link/redish101.webp
          descr: 人文,科技,白日梦~ 
        - name: elaina
          link: https://ashenwitch.top
-         avatar: /img/link/elaina.avif
+         avatar: /img/link/elaina.webp
          descr: ashenwitch~
        - name: Walter_Fang
          link: https://blog.walterfang.us.kg
-         avatar: /img/link/fang.avif
+         avatar: /img/link/fang.webp
          descr: Software Developer~
        - name: 璜珀
          link: https://blog.hpcesia.com/

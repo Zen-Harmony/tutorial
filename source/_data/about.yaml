@@ -7,14 +7,14 @@ authorinfo:
     - 脚踏实地行动派 🏃
     - 团队小组发动机 🧱
    
-  image: https://avatars.githubusercontent.com/u/130546027?v=4
+  image: /img/avatar.webp
 
 title: 关于本站
 
 contentinfo: # 顶部个人信息展示
   sup: 您好，很高兴认识您👋
-  name: 我叫Aninana # 名称
-  title: 是一名独立开发者、灵墨社区管理员、志海融新成员、博主 # 介绍
+  name: 我叫小志 # 名称
+  title: 是一名独立开发者、志海融新成员、博主 # 介绍
   tip: 追求
   slogan: 源于<br>热爱而去
   mask:
@@ -56,12 +56,12 @@ personalities:
   title: 调停者
   color: "#33a474"
   type: INFP-T
-  image: /img/about/INFP-T.svg
+  image: /img/about/INFP-T.webp
   link: https://www.16personalities.com/
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   typeName: 调停者
-  myphoto: /img/about/bg.avif
+  myphoto: /img/about/bg.webp
 
 motto:
   title: 座右铭
@@ -76,7 +76,7 @@ expertise:
 
 likes:
   - type: like-technology
-    bg: /img/about/zs.avif
+    bg: /img/about/zs.webp
     tips: 关注偏好
     title: 知识
     subtips: 知识女
@@ -106,7 +106,7 @@ rewardList: # 底部捐赠
     money: 14
     time: 2024-11-24
     icon: fab fa-weixin
-  - name: 青稚
-    money: 6
-    time: 2024-12-14
-    icon: fab fa-weixin
+  - name: Aninana
+    money: 1
+    time: 2024-12-06
+    icon: fab fa-qq
