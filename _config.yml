@@ -99,6 +99,11 @@ deploy:
   branch: main
   repo: git@github.com:Zen-Harmony/tutorial.git
 
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
+
 feed:
   enable: true
   type: atom
