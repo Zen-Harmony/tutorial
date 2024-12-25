@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
     branches:
       - main # default branch
-  permissions:
-    contents: read
-    pages: write
-    id-token: write
   concurrency:
     group: pages
     cancel-in-progress: false
