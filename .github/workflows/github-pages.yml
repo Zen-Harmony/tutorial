@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     branches:
       - main # default branch
-  concurrency:
+concurrency:
     group: pages
     cancel-in-progress: false
 jobs:
