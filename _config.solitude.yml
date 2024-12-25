@@ -144,7 +144,7 @@ aside:
     # 社交信息图标
     information:
       Github: https://github.com/Zen-Harmony || fab fa-github # Name: link || icon
-      Mail: mailto:zen-harmony@outlook.com || far fa-envelope
+      Mail: mailto:zhihairongxin@163.com || far fa-envelope
       Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
   # --------------------------- end ---------------------------
   # --------------------------- start ---------------------------
@@ -379,7 +379,7 @@ footer:
     author: false # img url / false
     left:
       Github: https://github.com/Zen-Harmony || fab fa-github # Name: link || icon
-      Mail: mailto:zen-harmony@outlook.com || far fa-envelope
+      Mail: mailto:zhihairongxin@163.com || far fa-envelope
     right:
       Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
   group:
