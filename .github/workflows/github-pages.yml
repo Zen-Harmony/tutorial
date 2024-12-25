@@ -1,4 +1,4 @@
-name: Pages
+name: github-pages
 on:
   workflow_dispatch:
     branches:
