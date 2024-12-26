@@ -31,9 +31,10 @@ jobs:
         run: |
           pnpm add -g hexo-cli
           pnpm install
-          gulp default
       - name: Build
-        run: npm run build
+        run: |
+          pnpm  build
+          gulp default
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
