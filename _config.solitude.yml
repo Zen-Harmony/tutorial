@@ -47,7 +47,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 奋斗是人生的船只<br >努力是梦想的风帆
+    title: 不断学习<br >合作共赢
     url: www.zen-harmony.top
     icon:
       Nodejs:
@@ -83,7 +83,7 @@ hometop:
   recommendList:
     enable: true
     sup: 志海融新
-    title: 欢迎您们
+    title: 用积极心态迎接每一天💕
     url: https://www.zen-harmony.top
     img: https://bing.img.run/rand.php
     color: "none"
