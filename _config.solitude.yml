@@ -346,8 +346,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#ffc848" # dark
-  light: "#cba6f7" # light
+  dark: "#cba6f7" # dark
+  light: "#cdd6f4" # light
 # --------------------------- end ---------------------------
 # --------------------------- start ---------------------------
 # display mode
