@@ -146,6 +146,7 @@ aside:
       Github: https://github.com/Zen-Harmony || fab fa-github # Name: link || icon
       Mail: mailto:zhihairongxin@163.com || far fa-envelope
       Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
+      Rss: /feed.rss || fas fa-rss
   # --------------------------- end ---------------------------
   # --------------------------- start ---------------------------
   # Sidebar QR code component
@@ -324,7 +325,7 @@ post:
       - linkedin
       - link
       - qrcode
-  rss: /atom.xml
+  # rss: /feed.rss
   # Article reading progress
   # 文章封面取色
   covercolor:
@@ -382,6 +383,7 @@ footer:
       Mail: mailto:zhihairongxin@163.com || far fa-envelope
     right:
       Bilibili: https://space.bilibili.com/3546792551516348 || fab fa-bilibili
+      Rss: /feed.rss || fas fa-rss
   group:
     # 软件:
     #   阳光沙滩: /
