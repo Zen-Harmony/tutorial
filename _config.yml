@@ -106,8 +106,8 @@ sitemap:
 
 feed:
   enable: true
-  type: atom
-  path: atom.xml
+  type: rss2
+  path: feed.rss
   limit: 20
   hub:
   content:
