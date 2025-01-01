@@ -110,3 +110,7 @@ rewardList: # 底部捐赠
     money: 1
     time: 2024-12-06
     icon: fab fa-qq
+  - name: yanjuner
+    money: 15
+    time: 2024-12-26
+    icon: fab fa-weixin
