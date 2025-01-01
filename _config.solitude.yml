@@ -834,10 +834,10 @@ translate:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: true
+  enable: false
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: true
+  commentBarrage: false
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
   translate: false
