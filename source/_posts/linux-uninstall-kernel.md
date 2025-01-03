@@ -59,6 +59,27 @@ sudo dnf remove --oldinstallonly
 sudo dnf autoremove
 ```
 
+>手动卸载旧内核
+
+查看当前系统中所有内核
+```sh
+rpm -qa|grep kernel
+```
+
+精简了部分内核信息
+```sh
+kernel-modules-core-6.11.4-301.fc41.x86_64
+kernel-core-6.11.4-301.fc41.x86_64
+kernel-modules-6.11.4-301.fc41.x86_64
+kernel-modules-extra-6.11.4-301.fc41.x86_64
+```
+
+卸载多余内核
+```sh
+sudo dnf remove kernel-modules-core-6.11.4-301.fc41.x86_64 kernel-modules-6.11.4-301.fc41.x86_64 kernel-core-6.11.4-301.fc41.x86_64 kernel-modules-extra-6.11.4-301.fc41.x86_64
+```
+
+
 ## Arch
 >自动卸载旧内核
 ```sh
