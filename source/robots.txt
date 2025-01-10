@@ -1,0 +1,15 @@
+# Basic rules applicable to all web crawlers
+User-agent: *
+Disallow: /archives/    # Forbidden to access archive pages
+Disallow: /categories/  # Forbidden to access category pages
+Disallow: /tags/        # Forbidden to access tag pages
+Disallow: /img/         # Forbidden to access img directory
+
+# Special rules for Baidu spider
+User-agent: Baiduspider
+Allow: /                # Allow access to all pages (subject to above Disallow rules)
+Sitemap: https://tutorial.zen-harmony.top/baidusitemap.xml  # Provide sitemap for Baidu spider
+
+# General sitemap (applicable to all crawlers, but may be overridden by above rules)
+# Note: This line may be ignored by the general User-agent: * rules in practice
+Sitemap: https://tutorial.zen-harmony.top/sitemap.xml  # Provide general sitemap
