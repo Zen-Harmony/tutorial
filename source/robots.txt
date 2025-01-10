@@ -3,16 +3,16 @@
 # Basic rules applicable to all web crawlers
 User-agent: *
 # Allowed paths
-Allow: /  # Homepage
-Allow: /archives/  # Archive pages
-Allow: /tags/  # Tag pages
-Allow: /categories/  # Category pages
-Allow: /about/  # About page
+Allow: /  
+Allow: /archives/ 
+Allow: /tags/  
+Allow: /categories/  
+Allow: /about/ 
 
 # Disallowed paths
-Disallow: /js/  # JavaScript file directory
-Disallow: /css/  # CSS file directory
-Disallow: /img/  # Image resource directory (usually images are referenced by pages)
+Disallow: /js/  
+Disallow: /css/  
+Disallow: /img/ 
 
 # Special rules for Baidu Spider
 User-agent: Baiduspider
