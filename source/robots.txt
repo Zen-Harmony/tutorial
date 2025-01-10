@@ -14,13 +14,13 @@ Disallow: /js/
 Disallow: /css/  
 Disallow: /img/ 
 
+# General sitemap applicable to all crawlers (may be overridden by specific crawler rules)
+# Note: Some crawlers may prioritize rules set specifically for them over general rules
+Sitemap: https://tutorial.zen-harmony.top/sitemap.xml
+
 # Special rules for Baidu Spider
 User-agent: Baiduspider
 # Allow access to all pages (subject to the above Disallow rules)
 Allow: /
 # Provide a dedicated sitemap for Baidu Spider
 Sitemap: https://tutorial.zen-harmony.top/baidusitemap.xml
-
-# General sitemap applicable to all crawlers (may be overridden by specific crawler rules)
-# Note: Some crawlers may prioritize rules set specifically for them over general rules
-Sitemap: https://tutorial.zen-harmony.top/sitemap.xml
