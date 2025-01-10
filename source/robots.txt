@@ -10,7 +10,6 @@ Allow: /categories/  # Category pages
 Allow: /about/  # About page
 
 # Disallowed paths
-Disallow: /custom/  # Custom content or special areas
 Disallow: /js/  # JavaScript file directory
 Disallow: /css/  # CSS file directory
 Disallow: /img/  # Image resource directory (usually images are referenced by pages)
