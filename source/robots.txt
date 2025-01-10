@@ -1,15 +1,27 @@
+# robots.txt Configuration File
+
 # Basic rules applicable to all web crawlers
 User-agent: *
-Disallow: /archives/    # Forbidden to access archive pages
-Disallow: /categories/  # Forbidden to access category pages
-Disallow: /tags/        # Forbidden to access tag pages
-Disallow: /img/         # Forbidden to access img directory
+# Allowed paths
+Allow: /  # Homepage
+Allow: /archives/  # Archive pages
+Allow: /tags/  # Tag pages
+Allow: /categories/  # Category pages
+Allow: /about/  # About page
 
-# Special rules for Baidu spider
+# Disallowed paths
+Disallow: /custom/  # Custom content or special areas
+Disallow: /js/  # JavaScript file directory
+Disallow: /css/  # CSS file directory
+Disallow: /img/  # Image resource directory (usually images are referenced by pages)
+
+# Special rules for Baidu Spider
 User-agent: Baiduspider
-Allow: /                # Allow access to all pages (subject to above Disallow rules)
-Sitemap: https://tutorial.zen-harmony.top/baidusitemap.xml  # Provide sitemap for Baidu spider
+# Allow access to all pages (subject to the above Disallow rules)
+Allow: /
+# Provide a dedicated sitemap for Baidu Spider
+Sitemap: https://tutorial.zen-harmony.top/baidusitemap.xml
 
-# General sitemap (applicable to all crawlers, but may be overridden by above rules)
-# Note: This line may be ignored by the general User-agent: * rules in practice
-Sitemap: https://tutorial.zen-harmony.top/sitemap.xml  # Provide general sitemap
+# General sitemap applicable to all crawlers (may be overridden by specific crawler rules)
+# Note: Some crawlers may prioritize rules set specifically for them over general rules
+Sitemap: https://tutorial.zen-harmony.top/sitemap.xml
