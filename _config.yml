@@ -101,8 +101,12 @@ deploy:
 
 baidusitemap:
     path: baidusitemap.xml
+    tag: false
+    category: false
 sitemap:
     path: sitemap.xml
+    tag: false
+    category: false
 
 feed:
   enable: true
