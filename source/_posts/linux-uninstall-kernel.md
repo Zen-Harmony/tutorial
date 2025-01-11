@@ -20,7 +20,7 @@ updated: 2024-11-30 08:20:17
 uname -a
 ``` 
 
-## Debian&Ubuntu
+## Debian & Ubuntu
 
 查看当前系统中所有内核
 ```sh
@@ -40,7 +40,7 @@ linux-modules-5.19.0-16-generic        install
 sudo apt purge linux-headers-5.19.0-16 linux-headers-5.19.0-16-generic linux-image-5.19.0-16-generic linux-modules-5.19.0-16-generic 
 ```
 
-删除内核后需要更新grup移除失效的启动项
+删除内核后需要更新grub移除失效的启动项
 ```sh
 sudo update-grub　#根据情况选择grub/grub2
 ```
@@ -86,7 +86,7 @@ sudo dnf remove kernel-modules-core-6.11.4-301.fc41.x86_64 kernel-modules-6.11.4
 sudo pacman -R linux
 ```
 
-删除内核后需要更新grup移除失效的启动项
+删除内核后需要更新grub移除失效的启动项
 ```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
