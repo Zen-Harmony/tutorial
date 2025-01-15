@@ -215,7 +215,7 @@ aside:
 # Home page article configuration information
 # 首页文章配置信息
 index_post_list:
-  direction: column # row / column
+  direction: row # row / column
   column: 2 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
