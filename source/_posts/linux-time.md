@@ -36,6 +36,7 @@ updated: 2025-01-24 08:12:43
 具体步骤：打开运行窗口（快捷键Win+R），然后输入regedit启动注册表编辑器，并找到`HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/TimeZoneInformation/`位置（可以直接粘贴进注册表编辑器地址栏），然后添加一项类型为`REG_DWORD`的键值，命名为`RealTimeIsUniversal`，值为 `1` 。
 
 重启后，Windows将使用UTC方式管理时间。
+
 2. 让Linux按照Windows的方式管理时间（禁用UTC）：
 > 注意：linux改成`localtime`可能会受夏令时影响（仅限部分地区）
 - 在Linux中，通过timedatectl命令将硬件时钟设置为本地时区。
