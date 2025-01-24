@@ -38,7 +38,6 @@ updated: 2025-01-24 08:12:43
 
 重启后，Windows将使用UTC方式管理时间。
 
-
 2. 让Linux按照Windows的方式管理时间（禁用UTC）：
 
 > 注意：linux改成`localtime`可能会受夏令时影响（仅限部分地区）
@@ -92,6 +91,3 @@ updated: 2025-01-24 08:12:43
 - 使用`hwclock --systohc`以系统时钟为准，同步硬件时钟。
 
 - 使用`hwclock --hctosys`以硬件时钟为准，同步系统时钟。
-
-
-
