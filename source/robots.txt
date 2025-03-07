@@ -7,7 +7,7 @@ Allow: /
 Allow: /archives/ 
 Allow: /tags/  
 Allow: /categories/  
-Allow: /about/ 
+Allow: /img/ 
 
 # Disallowed paths
 Disallow: /js/  
