@@ -4,15 +4,12 @@
 User-agent: *
 # Allowed paths
 Allow: /  
-Allow: /archives/ 
-Allow: /tags/  
-Allow: /categories/  
-Allow: /img/ 
-
+ 
 # Disallowed paths
-Disallow: /js/  
-Disallow: /css/  
-Disallow: /img/ 
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /img/
 
 # General sitemap applicable to all crawlers (may be overridden by specific crawler rules)
 # Note: Some crawlers may prioritize rules set specifically for them over general rules
