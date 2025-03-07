@@ -99,14 +99,15 @@ deploy:
   branch: main
   repo: git@github.com:Zen-Harmony/tutorial.git
 
-baidusitemap:
-    path: baidusitemap.xml
-    tag: false
-    category: false
 sitemap:
-    path: sitemap.xml
-    tag: false
-    category: false
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: 
+  template_txt: 
+  rel: false
+  tags: true
+  categories: true
 
 feed:
   enable: true
