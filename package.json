@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
-    "cheerio": "^1.1.0",
+    "cheerio": "^1.1.2",
     "compress": "^0.99.0",
     "gulp": "^5.0.1",
     "gulp-clean-css": "^4.3.0",
