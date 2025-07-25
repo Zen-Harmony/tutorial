@@ -6,7 +6,7 @@ tags:
   - Remove
   - Kernel
 date: 2024-11-30 08:20:17
-updated: 2024-11-30 08:20:17
+updated: 2025-07-26 05:38:17
 ---
 
 前言:Linux每次更新内核，旧内核不会自动删除，占用空间。
@@ -27,7 +27,7 @@ uname -a
 dpkg --get-selections |grep linux
 ``` 
 
-以Ubuntu为例:当前系统中所有内核(精简了部分显示信息)
+以Ubuntu为例:当前系统中所有内核（精简了部分显示信息）
 ```sh
 linux-headers-5.19.0-16                install
 linux-headers-5.19.0-16-generic        install
@@ -35,7 +35,7 @@ linux-image-5.19.0-16-generic          install
 linux-modules-5.19.0-16-generic        install
 ```
 
-清理多余的系统内核(复制需要卸载的内核名称，如下面示例)
+清理多余的系统内核（复制需要卸载的内核名称，如下面示例）
 ```sh
 sudo apt purge linux-headers-5.19.0-16 linux-headers-5.19.0-16-generic linux-image-5.19.0-16-generic linux-modules-5.19.0-16-generic 
 ```
@@ -81,7 +81,15 @@ sudo dnf remove kernel-modules-core-6.11.4-301.fc41.x86_64 kernel-modules-6.11.4
 
 
 ## Arch
->自动卸载旧内核
+
+查找内核（可能含有其他软件包）
+```sh
+sudo pacman -Qq | grep linux | grep -v firmware
+```
+您不需要的内核可能是“linux”、“linux-lts”、“linux-zen” 等，请注意不要删除正在使用的内核和其他软件包。
+
+
+删除旧内核（假设您不需要的内核是 “linux”）
 ```sh
 sudo pacman -R linux
 ```
