@@ -1,5 +1,5 @@
 ---
-title: 使用Wine运行windows软件
+title: 使用 Wine 运行 Windows 软件
 categories:
   - Linux
 tags:
